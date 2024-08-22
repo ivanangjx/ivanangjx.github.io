@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true
@@ -16,7 +16,7 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-<div class="post">
+<!-- <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
@@ -194,3 +194,4 @@ pagination:
 {% endif %}
 
 </div>
+ -->

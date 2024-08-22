@@ -1,39 +1,53 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@inproceedings{ang2019enhancing,
+  title={Enhancing STEM education using augmented reality and machine learning},
+  author={Ang, Ivan and Lim, King Hann},
+  booktitle={2019 7th International Conference on Smart Computing \& Communications (ICSCC)},
+  pages={1--5},
+  year={2019},
+  organization={IEEE},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  pdf={ang2019enhancing.pdf},
+  preview={aurel.png},
+  abstract={Learning Science, Technology, Engineering andMathematics (STEM) in the 21st century has been evolved from the conventional textbook to the interactive platform using electronic devices. This paper presents the implementation of a mobile application system, named AUREL (Augmented Reality Learning) in enhancing the learning experience by projecting Augmented Reality (AR) objects onto 2D images. This AR visualization is used to improve the understanding of STEM subjects and increases the enthusiasm of students towards STEM subjects. In this implementation, Google’s Cloud Tensor Processing Units (TPUs) are used to train specific datasets alongside Cloud Vision API to detect a wide range of objects. MLKit for Firebase is used to host the custom TensorFlow Lite models for specific use cases for better accuracy. On the other hand, Google Cloud Platform (GCP) is used to harvest STEM data, manage STEM 3D information and data processing. Subsequently, the processed information will be displayed in AR in the mobile application using ARCore’s Sceneform SDK. The application of AUREL could be extended to all science subjects so that students can learn using an interactive platform.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+
+@inproceedings{ang2020multistage,
+  title={Multistage Inferencing Approach on Large Datasets in Enhancing STEM Education},
+  author={Ang, Ivan and Lim, King Hann},
+  booktitle={ASM Science Journal},
+  volume={13},
+  issue={2},
+  pages={1-8},
+  year={2020},
+  organization={Academy of Sciences Malaysia},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  pdf={ang2020multistage.pdf},
+  preview={multistage.png},
+  abstract={Large datasets training with deep learning neural network are often tedious and require significant amount of computational power, memory space and time. This paper presents multistage inferencing approach in deep learning neural network models when training large datasets. Datasets are arranged in heirarchical order. Subsequently, saperate models are trained for each class and subclass. Inferencing is then done in multiple stages whereby the general object class is first determined before moving forward to identify its specific subclass. A recognition rate of 90.68% is obtained after the multistage inferencing approach is applied on large STEM datasets. It was a 3.68% increment as compared to the traditional all-in-one network, which had a recognition rate of 87%. This approach is implemented onto a mobile application named as AUREL (Augmented Reality Learning). AUREL uses image recognition to detect an object and then displays the object in Augmented Reality (AR). This AR visualization is used to improve the understanding of STEM subjects and increases the enthusiasm of students towards STEM subjects.}
 }
 
-@article{PhysRev.47.777,
+
+@inproceedings{ang2024apomdp,
+  title={A POMDP Approach for Safety Assessment of Autonomous Cars (Accepted)},
+  author={Ang, Ivan and Kurniawati, Hanna},
+  booktitle={International Workshop on the Algorithmic Foundations of Robotics},
+  year={2024},
+  organization={Springer},
+  selected={true},
+  bibtex_show={true},
+  pdf={ang2024apomdp.pdf},
+  preview={mechanism.png},
+  abstract={This paper proposes a mechanism to automatically assess the safety of autonomous robots, and in particular autonomous cars. Most methods to assess the safety of autonomous cars generate adver-sary strategies, which will then be used to test whether the car beingassessed can avoid accidents with the adversary. To generate such adversarial strategies, many have proposed learning techniques that requirea large amount of accident data. But, such data are difficult to obtain because accidents are rare. To alleviate this issue, we leverage the observation that when safe and colliding adversary trajectories are closer together, the vehicle is less safe because there is generally less buffer to avoid accidents. Specifically, we generate/utilise data on adversaries’ safe trajectories, which is more abundant than accidents data, and compute colliding adversarial trajectories that are as close as possible to the safe trajectories. The average distance between safe and colliding adversarial trajectories provides an indicator of the vehicles’ safety. To compute colliding adversarial trajectories, we take into account that the driving strategy of the vehicle being assessed is not fully known, and therefore propose a multi-objecive POMDP framing of the problem and an on-line planning method, called Constraint-Aware Tree (CAT), to compute approximate solution to the multi-objective POMDP. Evaluations of four learning-based autonomous driving software on pedestrian crossing and lane merging scenarios, derived from the National Highway Traffic Safety Administration (NHTSA), indicate the viability of the proposed testing mechanism in assessing a variety of autonomy software. Moreover, evaluations of CAT on the nuScenes dataset indicate that CAT generates more colliding adversarial trajectories in less time compared to state-of-the-artlearning-based method, STRIVE.}
+}
+
+
+
+
+article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
@@ -59,57 +73,4 @@
   annotation={* Example use of superscripts<br>† Albert Einstein},
   selected={true},
   inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
